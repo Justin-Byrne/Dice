@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+##[0.2.0] - 2019-11-21
+### Added
+- Implemented DICE.h and DICE.cpp header and object implementation file(s)
+- Added argument validation and results display
+- Fully fleshed out Main method
+
 ##[0.1.0] - 2019-11-21
 ### Added
 - Initial project setup and configuration(s)

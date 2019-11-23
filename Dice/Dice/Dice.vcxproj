@@ -131,6 +131,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="src\DICE.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DICE.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="doc\CHANGELOG.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

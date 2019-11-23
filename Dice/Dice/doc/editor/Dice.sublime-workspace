@@ -1,0 +1,627 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"s",
+				"The King's Eye\\"
+			],
+			[
+				"O",
+				"O_FOLD"
+			],
+			[
+				"o",
+				"O_FLAGS"
+			],
+			[
+				"Ma",
+				"MACRO"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"block",
+				"inline-block\tdisplay"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"quest",
+				"questRoom4.png\tw:1839 h:906"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"T",
+				"The King's Eye - Logo - White.png\tw:2550 h:2193"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"getl",
+				"getElementById\tmethod"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"swap",
+				"swapIcon\tlocal function"
+			],
+			[
+				"add",
+				"addEventListener\tmethod"
+			],
+			[
+				"pos",
+				"postInput\tlet"
+			],
+			[
+				"get",
+				"getElementById\tmethod"
+			],
+			[
+				"getElem",
+				"getElementsByClassName\tmethod"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"pu",
+				"pushInto\tlocal function"
+			],
+			[
+				"input",
+				"inputs\tlet"
+			],
+			[
+				"check",
+				"checkElement\tlocal function"
+			],
+			[
+				"getEleme",
+				"getElementById\tmethod"
+			],
+			[
+				"sele",
+				"selections\tlet"
+			],
+			[
+				"inpu",
+				"inputs\tlet"
+			],
+			[
+				"select",
+				"selectLength\tlet"
+			],
+			[
+				"selectTag",
+				"selectTagsLength\tlet"
+			],
+			[
+				"tags",
+				"tagsExplode\tlet"
+			],
+			[
+				"tag",
+				"tagInput\tlet"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"inp",
+				"inputs\tlet"
+			],
+			[
+				"bind",
+				"bindEventListener\tlocal function"
+			],
+			[
+				"getElemen",
+				"getElementsByClassName\tmethod"
+			],
+			[
+				"shad",
+				"text-shadow\tproperty"
+			],
+			[
+				"class",
+				"classList\twarning"
+			],
+			[
+				"fa",
+				"fa-plus"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"line",
+				"getLinesInFile"
+			],
+			[
+				"game",
+				"game_over"
+			],
+			[
+				"bl",
+				"BLANK_SPACER"
+			],
+			[
+				"h",
+				"HORIZONTAL_SPACER"
+			],
+			[
+				"end",
+				"endregion"
+			],
+			[
+				"pr",
+				"pragma"
+			],
+			[
+				"shuffle_",
+				"shuffle_deck"
+			],
+			[
+				"sprite",
+				"sprite_clips"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tborder-left-color"
+			],
+			[
+				"border-bott",
+				"border-bottom-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"LOWER",
+				"Convert Case: Lower Case"
+			],
+			[
+				"j",
+				"JsPrettier: Format Code"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"UPPER",
+				"Convert Case: Upper Case"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"CON",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"p",
+				"Permute Lines: Unique"
+			],
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"CONVER",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"perm",
+				"Permute Lines: Unique"
+			],
+			[
+				"compa",
+				"Compare with..."
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Workspace/VisualStudio/C++/Dice",
+		"/C/Workspace/VisualStudio/C++/Dice/Dice",
+		"/C/Workspace/VisualStudio/C++/Dice/Dice/Dice"
+	],
+	"file_history":
+	[
+		"/C/Workspace/VisualStudio/C++/Dice/Dice/Docs/CHANGELOG.md",
+		"/C/Workspace/VisualStudio/C++/MIGRATE/Poker/Docs/CHANGELOG.md",
+		"/C/Workspace/Docs/Changelog/Changelog.md",
+		"/C/Workspace/YouTube/Documents/Project Drafts/Dice/Git public-key.md",
+		"/C/Workspace/YouTube/Documents/Project Drafts/Poker/Episode 1.md",
+		"/C/Workspace/YouTube/Documents/Project Drafts/Poker/Episode 2.md",
+		"/C/Workspace/Sublime Projects/C++/Migrate.sublime-project",
+		"/C/Users/justi/Documents/SQL Server Management Studio/profileDB - Table Creation (LIVE).sql",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Home/Room.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/ViewModels/PostViewModel.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_Showroom.cshtml",
+		"/C/Workspace/www/asp/KingsEye/RDBMS/dbo/Data/CREATE TABLES.sql",
+		"/C/Workspace/www/html/html5up-dopetrope/assets/sass/main.scss",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/ViewModels/HomeViewModel.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Panel/EditHome.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_Sign.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/wwwroot/js/functions.js",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_Nav.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Controllers/PanelController.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Controllers/PanelController.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/IResova.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/Booking.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/Basket.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/Customer.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/Purchase.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Promotion.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Voucher.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Item.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Customer.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Booking.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Webhook.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Data/AppDbContext.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Payment.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Resova/DataTypes/Transaction.cs",
+		"/C/Users/justi/Desktop/Temp/download.todo",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/wwwroot/js/telephoneValidation.js",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_Newsletter.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/wwwroot/css/newsletter.css",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Controllers/AuthController.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Data/Repository/Repository.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Controllers/HomeController.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Shared/_Newsletter.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Models/CollectionModel.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Shared/_Layout.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_MainOne.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_MainTwo.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_MainThree.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_MainFour.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Panel/Index.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Models/Home.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Panel/EditPages.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Home/ViewComments.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Panel/EditPost.cshtml",
+		"/C/Workspace/www/asp/KingsEye/RDBMS/dbo/Data/INSERT DATA.sql",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Shared/_MainFive.cshtml",
+		"/C/Workspace/www/asp/KingsEye/RDBMS/dbo/Data/DROP TABLES.sql",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Home/ViewPages.cshtml",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Models/Pages.cs",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/ViewModels/PagesViewModel.cs",
+		"/C/Workspace/www/asp/Portfolio/MvcDb/dbo/Tables/mpPost.sql",
+		"/C/Workspace/www/asp/KingsEye/RDBMS/dbo/Tables/Pages.sql",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Views/Home/EditNewsletter.cshtml",
+		"/C/Users/justi/Desktop/Temp/temp.cs",
+		"/C/Workspace/www/asp/Portfolio/MvcDb/dbo/Tables/mpNewsQueue.sql",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/ViewModels/NewsletterViewModel.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Program.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/ViewModels/LoginViewModel.cs",
+		"/C/Workspace/www/asp/Portfolio/Docs/PAGES.md",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Models/MpNewsQueue.cs",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/appsettings.json",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Startup.cs",
+		"/C/Workspace/www/asp/Portfolio/MvcDb/dbo/Tables/mpNewsletter.sql",
+		"/C/Workspace/www/asp/KingsEye/RDBMS/dbo/Tables/Newsletter.sql",
+		"/C/Workspace/www/asp/KingsEye/RDBMS/dbo/Tables/Home.sql",
+		"/C/Workspace/www/asp/KingsEye/Docs/Home.md",
+		"/C/Workspace/www/asp/KingsEye/KingsEye/Data/Repository/Repository.cs",
+		"/C/Workspace/Sublime Projects/Umbrella Folders/ASP.Net.sublime-project",
+		"/C/Workspace/www/asp/KingsEye/GNU AGPL v3.0.txt",
+		"/C/Workspace/www/asp/KingsEye/LICENSE.txt",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Shared/_Scripts.cshtml",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/main.scss",
+		"/C/Workspace/www/html/The King's Eye/editor/The King's Eye.sublime-project",
+		"/C/Workspace/www/html/The King's Eye/www/Loot.html",
+		"/C/Workspace/www/html/The King's Eye/www/GameShow.html",
+		"/C/Workspace/www/html/The King's Eye/www/Raiders.html",
+		"/C/Workspace/www/html/The King's Eye/php/page.php",
+		"/C/Workspace/www/html/The King's Eye/php/single.php",
+		"/C/Workspace/www/html/The King's Eye/php/functions.php",
+		"/C/Workspace/www/html/The King's Eye/php/footer.php",
+		"/C/Workspace/www/html/The King's Eye/php/header.php",
+		"/C/Workspace/www/html/The King's Eye/php/assets/css/main.css",
+		"/C/Workspace/www/html/The King's Eye/php/docs/WordPress Theme Content Info.txt",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/Users/justi/Desktop/Temp/tree.md",
+		"/C/Users/justi/Desktop/Temp/tree2.md",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/pages/layout/_banner.scss",
+		"/C/Workspace/www/html/The King's Eye/www/Raiders-inspire.html",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/pages/main.scss",
+		"/C/Users/justi/Dropbox/Workspace/Player/Player/README.md",
+		"/C/Users/justi/Dropbox/Workspace/Player/Player/tree.txt",
+		"/C/Workspace/VisualStudio/C++/Omaha/Omaha/Makefile",
+		"/C/Workspace/www/html/The King's Eye/www/assets/js/googleMaps.js",
+		"/C/Users/justi/Downloads/html5up-big-picture/assets/sass/main.scss",
+		"/E/Workspace/Bash/post-install.sh",
+		"/C/Workspace/www/html/The King's Eye/www/editor/TheKingsEye.sublime-project",
+		"/C/Workspace/www/html/The King's Eye/www/assets/css/resova.css",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/bp-main.scss",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/ss-main.scss",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/bp-noscript.scss",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/ss-noscript.scss",
+		"/C/Workspace/www/html/The King's Eye/www/assets/sass/libs/main/_breakpoints.scss",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/wwwroot/js/wakatime-analytics.js",
+		"/C/Workspace/Sublime Projects/www.sublime-workspace",
+		"/C/Workspace/www/asp/Portfolio/Docs/CHANGELOG.md",
+		"/C/Workspace/www/asp/Portfolio/MvcDb/dbo/Data/Dummy Data - Without IDs.sql",
+		"/C/Workspace/www/asp/Portfolio/MvcDb/dbo/Data/CREATE TABLES.sql",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Home/ViewAnalytics.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Panel/EditProject.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Docs/publish.md",
+		"/C/Program Files/dotnet/sdk/directories.txt",
+		"/C/Users/justi/AppData/Local/Temp/tmp47CB.tmp",
+		"/C/Workspace/Sublime Projects/www.sublime-project",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/wwwroot/js/analtyics.js",
+		"/C/Workspace/www/asp/Prism syntax.html",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/wwwroot/js/WakaTime-Analytics.js",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/wwwroot/js/wakatime.js",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/Views/Shared/_Social.cshtml",
+		"/C/Workspace/www/asp/Portfolio/Portfolio/wwwroot/js/toggleSelectionGroups.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 184.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 102.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 144.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Dice.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

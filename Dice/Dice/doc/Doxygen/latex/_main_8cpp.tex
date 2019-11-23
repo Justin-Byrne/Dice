@@ -1,0 +1,224 @@
+\hypertarget{_main_8cpp}{}\section{C\+:/\+Workspace/\+Visual\+Studio/\+C++/\+Dice/\+Dice/\+Dice/\+Main.cpp File Reference}
+\label{_main_8cpp}\index{C:/Workspace/VisualStudio/C++/Dice/Dice/Dice/Main.cpp@{C:/Workspace/VisualStudio/C++/Dice/Dice/Dice/Main.cpp}}
+
+
+\+: \mbox{\hyperlink{namespace_dice}{Dice}}  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$regex$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}include/\+D\+I\+C\+E.\+h\char`\"{}}\newline
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_dice}{Dice}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_main_8cpp_ad22c87febb918a673cb7c076badb1f15}{validate\+\_\+argument}} (const char $\ast$arg, std\+::regex regex, const char $\ast$position, bool temp)
+\begin{DoxyCompactList}\small\item\em Validates the vector argument passed via the parameter \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_main_8cpp_ae52075f553b17ec497cdd970cbfa3ffa}{stage\+\_\+dice}} (int \&sides, int \&rolls, int multi)
+\begin{DoxyCompactList}\small\item\em Sets the stage and type of dice to be rolled \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_main_8cpp_a2323cd06d6df6ce0f337186a0e8386b8}{display\+\_\+results}} (std\+::vector$<$ \mbox{\hyperlink{class_d_i_c_e}{D\+I\+CE}} $>$ \&die)
+\begin{DoxyCompactList}\small\item\em Displays the amount (and final totals) of the die being rolled \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_main_8cpp_a4866b2d37ffc80c5ba705d3fcd1e0ecf}{error}} (const char $\ast$msg)
+\begin{DoxyCompactList}\small\item\em Displays error message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_main_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}{help}} ()
+\begin{DoxyCompactList}\small\item\em Displays help and usage information for this program \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_main_8cpp_aadd58a2bd505eba3564c7483be1a6140}{version}} ()
+\begin{DoxyCompactList}\small\item\em Displays version information for this program \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_main_8cpp_a358d2e2397ca11ccd17553e3c40e7901}{exit}} ()
+\begin{DoxyCompactList}\small\item\em Exiting sequence \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_main_8cpp_ac0f2228420376f4db7e1274f2b41667c}{main}} (int argc, const char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Main Programs Entry Point \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const char $\ast$ \mbox{\hyperlink{_main_8cpp_a0f8fdc1ef4dd426fedad6c68412be35e}{version\+\_\+no}} = \char`\"{}0.\+2.\+0\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\+: \mbox{\hyperlink{namespace_dice}{Dice}} 
+
+\begin{DoxyAuthor}{Author}
+\+: Justin D. Byrne \href{mailto:justin@byrne-systems.com}{\texttt{ justin@byrne-\/systems.\+com}} 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Copyright}
+\+: $<$\+L\+I\+C\+E\+N\+S\+E$>$ 
+\end{DoxyCopyright}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_main_8cpp_a2323cd06d6df6ce0f337186a0e8386b8}\label{_main_8cpp_a2323cd06d6df6ce0f337186a0e8386b8}} 
+\index{Main.cpp@{Main.cpp}!display\_results@{display\_results}}
+\index{display\_results@{display\_results}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{display\_results()}{display\_results()}}
+{\footnotesize\ttfamily void display\+\_\+results (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_d_i_c_e}{D\+I\+CE}} $>$ \&}]{die }\end{DoxyParamCaption})}
+
+
+
+Displays the amount (and final totals) of the die being rolled 
+
+
+\begin{DoxyParams}{Parameters}
+{\em die} & \mbox{\hyperlink{class_d_i_c_e}{D\+I\+CE}} to be rolled\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 151 of file Main.\+cpp.
+
+\mbox{\Hypertarget{_main_8cpp_a4866b2d37ffc80c5ba705d3fcd1e0ecf}\label{_main_8cpp_a4866b2d37ffc80c5ba705d3fcd1e0ecf}} 
+\index{Main.cpp@{Main.cpp}!error@{error}}
+\index{error@{error}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{error()}{error()}}
+{\footnotesize\ttfamily void error (\begin{DoxyParamCaption}\item[{const char $\ast$}]{msg }\end{DoxyParamCaption})}
+
+
+
+Displays error message 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Message to Display\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 180 of file Main.\+cpp.
+
+\mbox{\Hypertarget{_main_8cpp_a358d2e2397ca11ccd17553e3c40e7901}\label{_main_8cpp_a358d2e2397ca11ccd17553e3c40e7901}} 
+\index{Main.cpp@{Main.cpp}!exit@{exit}}
+\index{exit@{exit}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{exit()}{exit()}}
+{\footnotesize\ttfamily void exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Exiting sequence 
+
+
+
+Definition at line 218 of file Main.\+cpp.
+
+\mbox{\Hypertarget{_main_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}\label{_main_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}} 
+\index{Main.cpp@{Main.cpp}!help@{help}}
+\index{help@{help}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily void help (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays help and usage information for this program 
+
+
+
+Definition at line 191 of file Main.\+cpp.
+
+\mbox{\Hypertarget{_main_8cpp_ac0f2228420376f4db7e1274f2b41667c}\label{_main_8cpp_ac0f2228420376f4db7e1274f2b41667c}} 
+\index{Main.cpp@{Main.cpp}!main@{main}}
+\index{main@{main}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{const char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Main Programs Entry Point 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Argument Count\+: Number of command line arguments\\
+\hline
+{\em argv} & Argument Vector\+: Actual arguments\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+I\+NT \+: Exit Code
+\end{DoxyReturn}
+
+
+Definition at line 33 of file Main.\+cpp.
+
+\mbox{\Hypertarget{_main_8cpp_ae52075f553b17ec497cdd970cbfa3ffa}\label{_main_8cpp_ae52075f553b17ec497cdd970cbfa3ffa}} 
+\index{Main.cpp@{Main.cpp}!stage\_dice@{stage\_dice}}
+\index{stage\_dice@{stage\_dice}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{stage\_dice()}{stage\_dice()}}
+{\footnotesize\ttfamily void stage\+\_\+dice (\begin{DoxyParamCaption}\item[{int \&}]{sides,  }\item[{int \&}]{rolls,  }\item[{int}]{multi }\end{DoxyParamCaption})}
+
+
+
+Sets the stage and type of dice to be rolled 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sides} & Amount of Sides for the Generated Die\\
+\hline
+{\em rolls} & Amount of Rolls\\
+\hline
+{\em multi} & Multiplier Value to be Applied\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 121 of file Main.\+cpp.
+
+\mbox{\Hypertarget{_main_8cpp_ad22c87febb918a673cb7c076badb1f15}\label{_main_8cpp_ad22c87febb918a673cb7c076badb1f15}} 
+\index{Main.cpp@{Main.cpp}!validate\_argument@{validate\_argument}}
+\index{validate\_argument@{validate\_argument}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{validate\_argument()}{validate\_argument()}}
+{\footnotesize\ttfamily int validate\+\_\+argument (\begin{DoxyParamCaption}\item[{const char $\ast$}]{arg,  }\item[{std\+::regex}]{regex,  }\item[{const char $\ast$}]{position,  }\item[{bool}]{temp }\end{DoxyParamCaption})}
+
+
+
+Validates the vector argument passed via the parameter 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg} & Vector Argument\\
+\hline
+{\em regex} & Regular Expression Pattern\\
+\hline
+{\em position} & Position of the Argument\\
+\hline
+{\em temp} & Whether a Temporary Character Needs to be Employed\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number value extracted from argument
+\end{DoxyReturn}
+
+
+Definition at line 89 of file Main.\+cpp.
+
+\mbox{\Hypertarget{_main_8cpp_aadd58a2bd505eba3564c7483be1a6140}\label{_main_8cpp_aadd58a2bd505eba3564c7483be1a6140}} 
+\index{Main.cpp@{Main.cpp}!version@{version}}
+\index{version@{version}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{version()}{version()}}
+{\footnotesize\ttfamily void version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays version information for this program 
+
+
+
+Definition at line 210 of file Main.\+cpp.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_main_8cpp_a0f8fdc1ef4dd426fedad6c68412be35e}\label{_main_8cpp_a0f8fdc1ef4dd426fedad6c68412be35e}} 
+\index{Main.cpp@{Main.cpp}!version\_no@{version\_no}}
+\index{version\_no@{version\_no}!Main.cpp@{Main.cpp}}
+\subsubsection{\texorpdfstring{version\_no}{version\_no}}
+{\footnotesize\ttfamily const char$\ast$ version\+\_\+no = \char`\"{}0.\+2.\+0\char`\"{}}
+
+
+
+Definition at line 17 of file Main.\+cpp.
+

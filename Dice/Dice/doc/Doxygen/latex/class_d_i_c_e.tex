@@ -1,0 +1,262 @@
+\hypertarget{class_d_i_c_e}{}\section{D\+I\+CE Class Reference}
+\label{class_d_i_c_e}\index{DICE@{DICE}}
+
+
+{\ttfamily \#include $<$D\+I\+C\+E.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_d_i_c_e_a5b7f251c8cddf1dd2a69bd676d8558fc}{D\+I\+CE}} (int \&sides, int \&multi)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_d_i_c_e}{D\+I\+CE}} Constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_d_i_c_e_a28a0c7af0af5491406de1d088b8d76f3}{D\+I\+CE}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_d_i_c_e_ad543253cd88143c29ea51716a09444e5}{$\sim$\+D\+I\+CE}} ()
+\begin{DoxyCompactList}\small\item\em Default De-\/\+Constructor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_d_i_c_e_a72091c029e5bd18b12451551951e9cdc}{set\+\_\+type}} (const char $\ast$type)
+\begin{DoxyCompactList}\small\item\em Sets the Type of \mbox{\hyperlink{namespace_dice}{Dice}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_d_i_c_e_ac7478bfb76a2154fb905147fd27bc7c8}{set\+\_\+sides}} (int \&sides)
+\begin{DoxyCompactList}\small\item\em Set Amount of Sides for \mbox{\hyperlink{namespace_dice}{Dice}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_d_i_c_e_a1ad51dd470d2fec9281f4d3b270b1018}{set\+\_\+multi}} (int \&multi)
+\begin{DoxyCompactList}\small\item\em Set Numeric Multiplier Value \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_d_i_c_e_a6f2c5ce710807924ff8725de3b025cee}{set\+\_\+value}} (int value)
+\begin{DoxyCompactList}\small\item\em Set Final Value of \mbox{\hyperlink{namespace_dice}{Dice}} \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_d_i_c_e_aa586a0156a849209507b0bfac1304277}{get\+\_\+type}} ()
+\begin{DoxyCompactList}\small\item\em Gets the Type of \mbox{\hyperlink{namespace_dice}{Dice}} \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_d_i_c_e_a6b6c5219c27de25a2b33a2c7dd432948}{get\+\_\+sides}} ()
+\begin{DoxyCompactList}\small\item\em Get Amount of Sides \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_d_i_c_e_aa9ba66c4289c2facf5946fcf1b0017b2}{get\+\_\+multi}} ()
+\begin{DoxyCompactList}\small\item\em Get Numeric Multiplier Value \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_d_i_c_e_a5957a4b479401d1c3d42efcef77bc44a}{get\+\_\+value}} ()
+\begin{DoxyCompactList}\small\item\em Get Final Value of \mbox{\hyperlink{namespace_dice}{Dice}} \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_d_i_c_e_a89dcfe609f12904abf143b712c853f42}{roll\+\_\+dice}} ()
+\begin{DoxyCompactList}\small\item\em Roll \mbox{\hyperlink{namespace_dice}{Dice}} and Have Side Rolled Returned \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file D\+I\+C\+E.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_d_i_c_e_a5b7f251c8cddf1dd2a69bd676d8558fc}\label{class_d_i_c_e_a5b7f251c8cddf1dd2a69bd676d8558fc}} 
+\index{DICE@{DICE}!DICE@{DICE}}
+\index{DICE@{DICE}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{DICE()}{DICE()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily D\+I\+C\+E\+::\+D\+I\+CE (\begin{DoxyParamCaption}\item[{int \&}]{sides,  }\item[{int \&}]{multi }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_d_i_c_e}{D\+I\+CE}} Constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sides} & Amount of Sides\\
+\hline
+{\em multi} & Multiplies of base number\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 9 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_a28a0c7af0af5491406de1d088b8d76f3}\label{class_d_i_c_e_a28a0c7af0af5491406de1d088b8d76f3}} 
+\index{DICE@{DICE}!DICE@{DICE}}
+\index{DICE@{DICE}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{DICE()}{DICE()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily D\+I\+C\+E\+::\+D\+I\+CE (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default Constructor 
+
+/// 
+
+Definition at line 15 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_ad543253cd88143c29ea51716a09444e5}\label{class_d_i_c_e_ad543253cd88143c29ea51716a09444e5}} 
+\index{DICE@{DICE}!````~DICE@{$\sim$DICE}}
+\index{````~DICE@{$\sim$DICE}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{$\sim$DICE()}{~DICE()}}
+{\footnotesize\ttfamily D\+I\+C\+E\+::$\sim$\+D\+I\+CE (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default De-\/\+Constructor 
+
+
+
+Definition at line 20 of file D\+I\+C\+E.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_d_i_c_e_aa9ba66c4289c2facf5946fcf1b0017b2}\label{class_d_i_c_e_aa9ba66c4289c2facf5946fcf1b0017b2}} 
+\index{DICE@{DICE}!get\_multi@{get\_multi}}
+\index{get\_multi@{get\_multi}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{get\_multi()}{get\_multi()}}
+{\footnotesize\ttfamily int D\+I\+C\+E\+::get\+\_\+multi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get Numeric Multiplier Value 
+
+\begin{DoxyReturn}{Returns}
+Multiplier Value
+\end{DoxyReturn}
+
+
+Definition at line 80 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_a6b6c5219c27de25a2b33a2c7dd432948}\label{class_d_i_c_e_a6b6c5219c27de25a2b33a2c7dd432948}} 
+\index{DICE@{DICE}!get\_sides@{get\_sides}}
+\index{get\_sides@{get\_sides}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{get\_sides()}{get\_sides()}}
+{\footnotesize\ttfamily int D\+I\+C\+E\+::get\+\_\+sides (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get Amount of Sides 
+
+\begin{DoxyReturn}{Returns}
+Amount of Sides
+\end{DoxyReturn}
+
+
+Definition at line 71 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_aa586a0156a849209507b0bfac1304277}\label{class_d_i_c_e_aa586a0156a849209507b0bfac1304277}} 
+\index{DICE@{DICE}!get\_type@{get\_type}}
+\index{get\_type@{get\_type}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{get\_type()}{get\_type()}}
+{\footnotesize\ttfamily const char $\ast$ D\+I\+C\+E\+::get\+\_\+type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the Type of \mbox{\hyperlink{namespace_dice}{Dice}} 
+
+\begin{DoxyReturn}{Returns}
+Type of \mbox{\hyperlink{namespace_dice}{Dice}}
+\end{DoxyReturn}
+
+
+Definition at line 62 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_a5957a4b479401d1c3d42efcef77bc44a}\label{class_d_i_c_e_a5957a4b479401d1c3d42efcef77bc44a}} 
+\index{DICE@{DICE}!get\_value@{get\_value}}
+\index{get\_value@{get\_value}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{get\_value()}{get\_value()}}
+{\footnotesize\ttfamily int D\+I\+C\+E\+::get\+\_\+value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get Final Value of \mbox{\hyperlink{namespace_dice}{Dice}} 
+
+\begin{DoxyReturn}{Returns}
+Value of \mbox{\hyperlink{namespace_dice}{Dice}}
+\end{DoxyReturn}
+
+
+Definition at line 89 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_a89dcfe609f12904abf143b712c853f42}\label{class_d_i_c_e_a89dcfe609f12904abf143b712c853f42}} 
+\index{DICE@{DICE}!roll\_dice@{roll\_dice}}
+\index{roll\_dice@{roll\_dice}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{roll\_dice()}{roll\_dice()}}
+{\footnotesize\ttfamily int D\+I\+C\+E\+::roll\+\_\+dice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Roll \mbox{\hyperlink{namespace_dice}{Dice}} and Have Side Rolled Returned 
+
+\begin{DoxyReturn}{Returns}
+Side Rolled
+\end{DoxyReturn}
+
+
+Definition at line 98 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_a1ad51dd470d2fec9281f4d3b270b1018}\label{class_d_i_c_e_a1ad51dd470d2fec9281f4d3b270b1018}} 
+\index{DICE@{DICE}!set\_multi@{set\_multi}}
+\index{set\_multi@{set\_multi}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{set\_multi()}{set\_multi()}}
+{\footnotesize\ttfamily void D\+I\+C\+E\+::set\+\_\+multi (\begin{DoxyParamCaption}\item[{int \&}]{multi }\end{DoxyParamCaption})}
+
+
+
+Set Numeric Multiplier Value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & Multiplier Value\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 44 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_ac7478bfb76a2154fb905147fd27bc7c8}\label{class_d_i_c_e_ac7478bfb76a2154fb905147fd27bc7c8}} 
+\index{DICE@{DICE}!set\_sides@{set\_sides}}
+\index{set\_sides@{set\_sides}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{set\_sides()}{set\_sides()}}
+{\footnotesize\ttfamily void D\+I\+C\+E\+::set\+\_\+sides (\begin{DoxyParamCaption}\item[{int \&}]{sides }\end{DoxyParamCaption})}
+
+
+
+Set Amount of Sides for \mbox{\hyperlink{namespace_dice}{Dice}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sides} & Amount of Sides\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_a72091c029e5bd18b12451551951e9cdc}\label{class_d_i_c_e_a72091c029e5bd18b12451551951e9cdc}} 
+\index{DICE@{DICE}!set\_type@{set\_type}}
+\index{set\_type@{set\_type}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{set\_type()}{set\_type()}}
+{\footnotesize\ttfamily void D\+I\+C\+E\+::set\+\_\+type (\begin{DoxyParamCaption}\item[{const char $\ast$}]{type }\end{DoxyParamCaption})}
+
+
+
+Sets the Type of \mbox{\hyperlink{namespace_dice}{Dice}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & Type of \mbox{\hyperlink{namespace_dice}{Dice}}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 26 of file D\+I\+C\+E.\+cpp.
+
+\mbox{\Hypertarget{class_d_i_c_e_a6f2c5ce710807924ff8725de3b025cee}\label{class_d_i_c_e_a6f2c5ce710807924ff8725de3b025cee}} 
+\index{DICE@{DICE}!set\_value@{set\_value}}
+\index{set\_value@{set\_value}!DICE@{DICE}}
+\subsubsection{\texorpdfstring{set\_value()}{set\_value()}}
+{\footnotesize\ttfamily void D\+I\+C\+E\+::set\+\_\+value (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Set Final Value of \mbox{\hyperlink{namespace_dice}{Dice}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value of \mbox{\hyperlink{namespace_dice}{Dice}}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 53 of file D\+I\+C\+E.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Workspace/\+Visual\+Studio/\+C++/\+Dice/\+Dice/\+Dice/include/\mbox{\hyperlink{_d_i_c_e_8h}{D\+I\+C\+E.\+h}}\item 
+C\+:/\+Workspace/\+Visual\+Studio/\+C++/\+Dice/\+Dice/\+Dice/src/\mbox{\hyperlink{_d_i_c_e_8cpp}{D\+I\+C\+E.\+cpp}}\end{DoxyCompactItemize}
