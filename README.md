@@ -100,75 +100,76 @@ Please [open an issue](https://github.com/Justin-Byrne/Dice/issues/new) for supp
 
 ## Structure
 
-    . (Dice)
-    │
-    │
-    ├── Dice
+
+	. (master)
+	│
+	│
+	├── Dice
     │   │
-    │   ├──bin
-    │   │   │
-    │   │   ├── debug
-    │   │   └───release
     │   │
-    │   ├── doc
+    │   ├── Dice
     │   │   │
-    │   │   ├── Doxygen
+    │   │   ├──bin
     │   │   │   │
-    │   │   │   ├── html (API Documentation)
+    │   │   │   ├── debug
+    │   │   │   └───release
+    │   │   │
+    │   │   ├── doc
+    │   │   │   │
+    │   │   │   ├── Doxygen
     │   │   │   │   │
-    │   │   │   │   ├── index.html (Index to API HTML Documentation)
-    │   │   │   │   ├── ...
-    │   │   │   │   └── search
-    │   │   │   │       │
-    │   │   │   │       └── ...
-    │   │   │   │
-    │   │   │   ├── latex (LATEX Graphics for Documentation)
+    │   │   │   │   ├── html (API Documentation)
+    │   │   │   │   │   │
+    │   │   │   │   │   ├── index.html (Index to API HTML Documentation)
+    │   │   │   │   │   ├── ...
+    │   │   │   │   │   └── search
+    │   │   │   │   │       │
+    │   │   │   │   │       └── ...
     │   │   │   │   │
-    │   │   │   │   └── ...
-    │   │   │   │
-    │   │   │   ├── rtf (Rich Text Formatting Reference Material)
+    │   │   │   │   ├── latex (LATEX Graphics for Documentation)
+    │   │   │   │   │   │
+    │   │   │   │   │   └── ...
     │   │   │   │   │
-    │   │   │   │   ├── refman.rtf (API Reference Manual)
-    │   │   │   │   └── ...
+    │   │   │   │   ├── rtf (Rich Text Formatting Reference Material)
+    │   │   │   │   │   │
+    │   │   │   │   │   ├── refman.rtf (API Reference Manual)
+    │   │   │   │   │   └── ...
+    │   │   │   │   │
+    │   │   │   │   └── Doxygen (Save File)
     │   │   │   │
-    │   │   │   └── Doxygen (Save File)
-    │   │   │
-    │   │   ├── editor (Sublime Text Editor Files)
+    │   │   │   ├── editor (Sublime Text Editor Files)
+    │   │   │   │   │
+    │   │   │   │   ├── Dice.sublime─project
+    │   │   │   │   └── Dice.sublime─workspace
     │   │   │   │
-    │   │   │   ├── Dice.sublime─project
-    │   │   │   └── Dice.sublime─workspace
-    │   │   │
-    │   │   ├── models
+    │   │   │   ├── models
+    │   │   │   │   │
+    │   │   │   │   ├── UML Basic Diagram.svg
+    │   │   │   │   ├── UML Detailed Diagram.svg
+    │   │   │   │   ├── READEME.md
+    │   │   │   │   └── ... (Extra files)
     │   │   │   │
-    │   │   │   ├── UML Basic Diagram.svg
-    │   │   │   ├── UML Detailed Diagram.svg
-    │   │   │   ├── READEME.md
-    │   │   │   └── ... (Extra files)
+    │   │   │   └── CHANGELOG.md
     │   │   │
-    │   │   ├── CHANGELOG.md
-    │   │   └── LICENSE.txt
+    │   │   │
+    │   │   ├── include
+    │   │   │   │
+    │   │   │   └── DICE.h
+    │   │   │
+    │   │   ├── src
+    │   │   │   │
+    │   │   │   └── DICE.cpp
+    │   │   │
+    │   │   ├── Main.cpp
+    │   │   ├── Makefile
+    │   │   ├── Dice.vcxproj
+    │   │   └── Dice.vcxproj.filters
     │   │
-    │   ├── include
-    │   │   ├── DICE.h
-    │   │   └── MACRO.h
-    │   │
-    │   ├── lib
-    │   │
-    │   ├── spike
-    │   │
-    │   ├── src
-    │   │   └── DICE.cpp
-    │   │
-    │   ├── test
-    │   │
-    │   ├── Main.cpp
-    │   ├── Makefile
-    │   ├── Dice.vcxproj
-    │   ├── Dice.vcxproj.filters
-    │   └── Dice.vcxproj.user
-    │
-    ├── Dice.sln
-    └── README.md
+    │   └── Dice.sln
+	│
+	├── .gitignore
+	├── LICENSE
+	└── READEME.md
 
 
 ## Copyright
