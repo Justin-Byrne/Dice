@@ -1,7 +1,9 @@
 # Dice
 
-![MIT License](http://byrne-systems.com/content/static/license-MIT-green.svg)
-![Platform](http://byrne-systems.com/content/static/platform-linux--64_win--32_osx--64_win--64-lightgrey.svg)
+![issues](https://img.shields.io/github/issues/Justin-Byrne/Dice)
+![forks](https://img.shields.io/github/forks/Justin-Byrne/Dice)
+![stars](https://img.shields.io/github/stars/Justin-Byrne/Dice)
+![license](https://img.shields.io/github/license/Justin-Byrne/Dice)
 
 Dice is a basic program designed in C++ for educational and extracurricular purposes.
 
