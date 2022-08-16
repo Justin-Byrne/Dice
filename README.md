@@ -24,20 +24,10 @@ Migrate to your desired download location on your local machine using your (eith
 git clone https://github.com/Justin-Byrne/Dice.git
 ```
 
-Utilize the Makefile within the Player subdirectory immediately under the root directory, and utilize the following command(s) for the platform that you are using:
-
-### Windows 
+Initiate the Makefile under (root)/Dice/Dice, within your terminal/shell:
 
 ```sh
-> make win32
-> make clean
-```
-
-### Linux
-
-```sh
-# make linux
-# make clean
+> make && make clean
 ```
 
 **Note:** Your compiled binary output will be generated under the *bin* directory, inside the *release* directory. It's from this directory that you can execute your compiled file.
